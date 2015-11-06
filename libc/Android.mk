@@ -151,6 +151,7 @@ libc_bionic_src_files := \
     bionic/posix_timers.cpp \
     bionic/pthread_atfork.cpp \
     bionic/pthread_attr.cpp \
+    bionic/pthread_barrier.cpp \
     bionic/pthread_cond.cpp \
     bionic/pthread_create.cpp \
     bionic/pthread_detach.cpp \
