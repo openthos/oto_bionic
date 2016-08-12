@@ -242,7 +242,7 @@ int pthread_rwlock_wrlock(pthread_rwlock_t*) __nonnull((1));
 
 int pthread_barrierattr_init(pthread_barrierattr_t* attr) __nonnull((1));
 int pthread_barrierattr_destroy(pthread_barrierattr_t* attr) __nonnull((1));
-int pthread_barrierattr_getpshared(pthread_barrierattr_t* attr, int* pshared) __nonnull((1, 2));
+int pthread_barrierattr_getpshared(const pthread_barrierattr_t* attr, int* pshared) __nonnull((1, 2));
 int pthread_barrierattr_setpshared(pthread_barrierattr_t* attr, int pshared) __nonnull((1));
 
 int pthread_barrier_init(pthread_barrier_t*, const pthread_barrierattr_t*, unsigned) __nonnull((1));
