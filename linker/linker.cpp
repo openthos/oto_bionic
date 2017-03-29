@@ -2138,6 +2138,7 @@ bool soinfo::PrelinkImage() {
       case DT_VERSYM:
       case DT_VERDEF:
       case DT_VERDEFNUM:
+      case DT_GNU_HASH:
         break;
 
       default:
